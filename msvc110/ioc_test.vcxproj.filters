@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Test">
+      <UniqueIdentifier>{19a949cd-4009-4803-99b8-6fecf35d9973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{f47162fb-60c9-4fb8-8a68-219843e4728f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\any_map.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\construct.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\container.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dependency.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\error.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\generators.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lifestyle.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test\consumer_types.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\test\consumer_types.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\test_integrity.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\test_lifetime.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\test_registration.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\test_uncompilable.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\main.cpp" />
+  </ItemGroup>
+</Project>
